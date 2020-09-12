@@ -3,9 +3,11 @@ Container image with Infrastructure-as-Code tools
 
 Terraform [https://www.terraform.io/]
 
-Terraform Provider ESXi [https://github.com/josenk/terraform-provider-esxi]
-
 Ansible [https://github.com/ansible/ansible]
+
+Docker SDK for Python [https://pypi.org/project/docker]
 
 ## Usage
 docker run --rm -it tribrhy/iactools:latest bash
+
+See `tests` directory for examples.
