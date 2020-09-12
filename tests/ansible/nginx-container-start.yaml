@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Ensure nginx container is running
+    docker_container:
+      name: nginx
+      image: nginx:1.19
+      ports:
+      - "80:80"
+      state: started
